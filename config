@@ -1,0 +1,5 @@
+[data]
+data_folder = ./data/BC4CHEMD-IOBES/
+train_file = train.tsv
+dev_file = devel.tsv
+test_file = test.tsv
