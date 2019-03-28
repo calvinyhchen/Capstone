@@ -5,13 +5,12 @@
 ## 1. Pretrain ELMo 
 For pretraining your own ELMo embeddings, use [allenai/bilm-tf](https://github.com/allenai/bilm-tf).
 
-You can use Pretrain_ELMo/buildVocab.py and replace line 6 with your path to training data to build a vocab file for pretraining ELMo. 
-
+You can use `Pretrain_ELMo/buildVocab.py` and replace line 6 with your path to training data to build a vocab file for pretraining ELMo. Remember to replace `n_train_tokens` in [bin/train_elmo.py](https://github.com/allenai/bilm-tf/blob/master/bin/train_elmo.py)
 ## 2. Training a BioNER Model
 
 
 ### 2.1 Update Flair
-Copy the functions in Flair/embeddings to [flair/embeddings.py](https://github.com/zalandoresearch/flair/blob/master/flair/embeddings.py) in Flair framework and install Flair with [setup.py](https://github.com/zalandoresearch/flair/blob/master/setup.py).
+Copy the functions in `Flair/embeddings` to [flair/embeddings.py](https://github.com/zalandoresearch/flair/blob/master/flair/embeddings.py) in Flair framework and install Flair with [setup.py](https://github.com/zalandoresearch/flair/blob/master/setup.py).
 
 ### 2.2 Configuration
 You can customize your config with the following format:
