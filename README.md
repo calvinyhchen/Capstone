@@ -5,7 +5,7 @@
 ## 1. Pretrain ELMo 
 For pretraining your own ELMo embeddings, use [allenai/bilm-tf](https://github.com/allenai/bilm-tf).
 
-You can use ELMo/buildVocab.py and replace line 6 with your path to training data to build a vocab file for pretraining ELMo. 
+You can use Pretrain_ELMo/buildVocab.py and replace line 6 with your path to training data to build a vocab file for pretraining ELMo. 
 
 ## 2. Training a BioNER Model
 
