@@ -43,5 +43,5 @@ You can replace the path to [options_file](https://github.com/calvinyhchen/Capst
 USE [UMLSEmbedding()](https://github.com/calvinyhchen/Capstone/blob/master/train.py#L49). Remember to copy `umls_map_full_context.txt` to where you install Flair.
 
 ### 3.6 CCREmbedding
-Use [CCREmbedding()](https://github.com/calvinyhchen/Capstone/blob/master/train.py#L50). Remember to copy `CCR_embedding` to where you install Flair.
+Use [CCREmbedding()](https://github.com/calvinyhchen/Capstone/blob/master/train.py#L50). Remember to copy `CCR_embedding.txt` to where you install Flair.
 
